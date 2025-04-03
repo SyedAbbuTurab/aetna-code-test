@@ -1,0 +1,26 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+.env.*.local
+
+# SQLite database files
+*.db
+*.db-journal
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Testing
+coverage/
+jest-cache/
+jest-output/
+
+# Editor folders
+.vscode/
+.idea/
+
+# Nodemon auto-reload artifacts
+.pnp.*
